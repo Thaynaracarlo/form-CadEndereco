@@ -5,5 +5,6 @@
 // Função para limpar formulário 
 const limparFormulario = () =>{
     document.getElementById('Logadouro').value = '';
+    doc
 
 }
