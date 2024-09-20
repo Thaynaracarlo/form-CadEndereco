@@ -5,6 +5,18 @@
 // Função para limpar formulário 
 const limparFormulario = () =>{
     document.getElementById('Logadouro').value = '';
-    doc
+    document.getElementById('bairro').value = '';
+    document.getElementById('localidade').value = '';
+    document.getElementById('UF').value = '';
+    document.getElementById('numero').value = '';
+    document.getElementById('CEP').value = '';
+    document.getElementById('complemento').value = '';
+
 
 }
+
+const eNumero = (numero) => /^[0-9]+$/.test();
+(numero); 
+
+//length é uma propriedade que identifica a quantidade de caracteres dentro do argomento cep
+const ceoValido = (cep) => cep.length == 8 && eNumero(cep);
