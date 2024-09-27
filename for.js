@@ -23,19 +23,17 @@ const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
 //Função para prenceher formulário como campos da API
 
-const preencherFormulario = (endereco) {
+const preencherFormulario = (endereco) =>{
     document.getElementById('logradouro').value = endereco.logradouro;
     document.getElementById('localidade').value = endereco.localidade;
     document.getElementById('uf').value = endereco.uf;
     document.getElementById('bairro').value = endereco.bairro;
 
 }
-// cria regra de expressão regular (regex) para testar valor informado pelo usuário
-const eNumero = (numero) => /^[0-9]+$/.test(numero);
-const cepValido = (cep) => cep.length == 8 && enumero(cep);
+
 
 //Função de consumo de API ViaCEP
-const pesquisarCep = async () => {
+async function pesquisarCep() {
     limparFormulario();
     const url = `http://viacep.com.br/ws/${Cep.value}/json/`;
 
