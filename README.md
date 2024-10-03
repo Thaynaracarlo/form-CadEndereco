@@ -1,6 +1,6 @@
 # Projeto de Cadastro de Endereço
 
-# ``Descrição``
+## ``Descrição``
 Este projeto feito durante as aulas de Programação Web I, este projeto consiste em um formulário web para cadastro de endereços. Ele utiliza Jvacript, HTML, CSS (com Bootstrap) e tem como objetivo facilitar a coleta de informações de endereços de forma estruturada e responsiva.
 
 ## ``Funcionalidades``
@@ -11,6 +11,13 @@ Este projeto feito durante as aulas de Programação Web I, este projeto consist
 - **Tratamento de Erros**: O usuário é notificado caso o CEP não seja encontrado ou esteja incorreto.
 
 ## ``Como usar``
+
+Abra o link [for.html](https://thaynaracarlo.github.io/form-CadEndereco/for.html) em um navegador web.
+Digite um CEP válido no campo correspondente e pressione Tab ou clique fora do campo para ativar a pesquisa.
+Os campos de endereço serão preenchidos automaticamente com os dados correspondentes ao CEP inserido.
+
+## Imagens do site 
+![](imagem.png)
 
 
 
@@ -46,9 +53,13 @@ hasOwnProperty('erro'): Verifica se a resposta contém um erro (indicando que o 
 Este código HTML configura um formulário de cadastro de endereço. O usuário pode preencher detalhes como CEP, rua, número, bairro, cidade e estado. O formulário é estilizado com Bootstrap para ser responsivo e visualmente agradável. A funcionalidade adicional, como validação e preenchimento automático de endereço baseado no CEP, deve ser implementada no arquivo for.js.
 
 
-
 ## ``Tecnologias ultilizadas``
 * HTML
 * CSS
-* JavaScript
-* bootstrap
+* JavaScript (E56)
+
+## ``fontes consultadas``
+
+* [ViaCep](https://viacep.com.br/)
+* [bootstrap](https://getbootstrap.com/)
+* []()
