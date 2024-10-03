@@ -21,6 +21,9 @@ Os campos de endereço serão preenchidos automaticamente com os dados correspon
 
 
 
+## GIf funcionamento do site:
+
+
 ## ``Formulário``
 Coleta informações do usuário, como:
 CEP, Rua, Número, Bairro, Complemento, Cidade, Estado
@@ -50,7 +53,11 @@ hasOwnProperty('erro'): Verifica se a resposta contém um erro (indicando que o 
 
 ## ``HTML``
 
-Este código HTML configura um formulário de cadastro de endereço. O usuário pode preencher detalhes como CEP, rua, número, bairro, cidade e estado. O formulário é estilizado com Bootstrap para ser responsivo e visualmente agradável. A funcionalidade adicional, como validação e preenchimento automático de endereço baseado no CEP, deve ser implementada no arquivo for.js.
+* Um formulário simples que coleta informações de endereço.
+
+* Campos para inserir o CEP, logradouro, número, complemento, bairro, cidade e estado.
+
+* Um botão de submissão para enviar os dados.
 
 
 ## ``Tecnologias ultilizadas``
@@ -58,8 +65,8 @@ Este código HTML configura um formulário de cadastro de endereço. O usuário 
 * CSS
 * JavaScript (E56)
 
-## ``fontes consultadas``
+## ``Referências``
 
 * [ViaCep](https://viacep.com.br/)
 * [bootstrap](https://getbootstrap.com/)
-* []()
+
