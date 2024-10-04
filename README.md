@@ -22,6 +22,7 @@ Os campos de endereço serão preenchidos automaticamente com os dados correspon
 
 
 ## GIf funcionamento do site:
+![](Gravando-%2004%20-%2010.gif)
 
 
 ## ``Formulário``
